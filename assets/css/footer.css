@@ -1,0 +1,382 @@
+/*css ligne row du footer */
+.rowfooter {
+
+	background-color: black;
+	color: white;
+	height: 550px;
+	padding: 0;
+	margin:0;
+}
+
+/*BLOC LEFT++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*bloc A propos */
+
+.bloc_left {
+
+	padding:0;
+	margin:0;
+	height:500px;
+	width:33.3%;
+}
+
+/*css du ul*/
+
+.foot {
+
+	list-style-type: none;
+	margin:0;
+	padding:50px;
+	height: 500px;
+	text-align: center;
+	
+}
+
+/*css des li */
+
+.list1 {
+
+	margin:0;
+	padding:10px 0px 10px 10px;
+	font-size:140%;
+}
+
+.list1:hover{
+
+	font-size:180%;
+}
+
+/*.bold {
+
+	font-weight: bold;
+}*/
+
+/*css du h3 a propos*/
+.h3ul1 {
+
+	margin:0;
+	padding:0;
+	text-decoration: underline;
+	font-size:140%;
+}
+
+/*css des link <a>*/
+
+.link {
+
+	color:white;
+}
+
+/*BLOC MIDDLE+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.bloc_middle {
+
+	padding:0;
+	margin:0;
+	height:500px;
+	width:33.3%;
+	
+}
+
+/*css div réseaux sociaux*/
+
+.suivezns {
+
+	height:250px;
+	margin:0;
+	padding:0;
+	text-align: center;
+
+
+}
+
+/*css du h3 suivez nous*/
+
+.suivezns1 {
+
+	margin:0;
+	padding: 65px 50px 30px 50px;
+	height:125px;
+	text-align: center;
+	font-size:180%;
+	text-decoration: underline;
+
+}
+
+/*css du ul réseau sociaux*/
+
+.liconsocial {
+
+	padding:5px 0px 20px 5px;
+	margin:0;
+	list-style-type: none;
+	height:125px;
+}
+
+/*css des listes réseaux sociaux*/
+
+.licosoc {
+
+	margin:0;
+	padding:5px;
+	height:75px;
+	width:75px;
+	display:inline-block;
+	text-align: center;
+}
+
+/*=================================*/
+/*css des icones réseaux sociaux*/
+
+.fa {
+
+	margin:0;
+	padding:15px 2px;
+	height:60px;
+	width:60px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	font-size:30px;
+}
+
+.fa:visited {
+	text-decoration: none;
+	color:white;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color:white;
+    font-size:130%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: #FFFFFF;
+  border: white solid 0.1px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+
+/*=======================================*/
+
+/*css div partenaire*/
+
+.partenaire {
+
+	margin:0;
+	padding:0;
+	height: 250px;
+	text-align: center;
+}
+
+/*css du h3 partenariat*/
+
+.part {
+
+	margin:0;
+	padding:0px 0px 20px 0px;
+	text-align: center;
+	font-size:180%;
+	text-decoration: underline;
+	height:50px;
+
+}
+
+/*css de la list ul des logo*/
+
+.logo {
+
+	margin:0;
+	padding:0;
+	height:150px;
+	list-style-type: none;
+
+
+}
+
+/*css des li logos wcs et fontcity*/
+
+.log {
+
+	margin:0;
+	padding:0px; 5px 0px 5px; 
+	text-align: center;
+	display:inline-block;
+	height: 150px;
+	width:200px;
+	
+}
+
+/*image partenaire wcs et bleau*/
+#wcs {
+
+	height:140px;
+	width:150px;
+	margin:0;
+	padding:0;
+	border-radius: 20%;
+}
+
+#bleau {
+
+	height:140px;
+	width:150px;
+	margin:0;
+	padding:0;
+	border-radius: 20%;
+}
+
+#wcs:hover {
+
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+#bleau:hover {
+
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+/*css du devenez partenaire*/
+
+.part2 {
+
+	margin:0;
+	padding:0;
+	font-size:140%;
+	height:50px;
+	color:white;
+
+}
+
+.becomepart {
+	color:white;
+}
+
+
+
+
+.becomepart:hover{
+
+	font-size:145%;
+	text-decoration: underline;
+	
+}
+
+/*BLOC RIGHT===============================================
+===============================================*/
+
+.bloc_right {
+
+	padding:0;
+	margin:0;
+	height:500px;
+	width:33.3%;
+}
+
+/*css div newsletter*/
+.new{
+	padding:70px 0px 0px 0px;
+	margin:0;
+	height:125px;
+	text-align: center;
+
+}
+
+/*css du h3 newsletter */
+.newletter {
+
+	padding:0;
+	margin:0;
+	text-decoration: underline;
+}
+
+/*css div du formule envoi mail newsletter*/
+
+.mail {
+	padding:0;
+	margin:0;
+	text-align: center;
+	height:100px;
+}
+
+/*css du début du formulaire*/
+#form{
+
+	height:100px;
+	padding-top: 5px
+}
+
+/*css du glyphicon arobase*/
+
+.refa {
+    margin:0;
+    padding:20px 20px 0px 0px; 
+}
+
+/*css de la zone d'écriture du mail*/
+
+#input{
+
+	margin-right: 10px;
+	padding:15px 0px 0px 0px;
+	width: 250px;
+}
+
+/*css du placement du bouton envoyer*/
+.bt {
+
+	margin-bottom: 15px;
+}
+
+/*BOUTON CHOIX DES LANGUES============================
+====================================================*/
+
+/*css de la div du choix des langues*/
+
+
+/*css du choix des langues*/
+
+
+
+.copyright{
+
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-weight: bold;
+	height:50px;
+	width:100%;
+	display:inline-block;
+
+}
+
+.copyr{
+
+	margin:0;
+	padding:15px 0px 0px 0px;
+	height:50px;
+}
